@@ -36,7 +36,8 @@ namespace seleniumfollower
             Thread.Sleep(2500);
 
 
-            /*IWebElement followerLink =*/ driver.FindElement(By.XPath("//*[@class='_aa_7']/li/div")).Click();
+            /*IWebElement followerLink =*/
+            driver.FindElement(By.XPath("//*[@class='_aa_5']/a")).Click();
             //followerLink.Click();
 
 
